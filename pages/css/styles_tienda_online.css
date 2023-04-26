@@ -1,6 +1,6 @@
-.container {
-    width:100%;
-    margin:0px auto;
+.contenedor {
+    width:90%;
+    margin:10px auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 14px;
   }
@@ -8,31 +8,34 @@
 body{
     background-color: #FFF;
     width: 100%;
-    height: 500px;
+    height: 1100px;
 }
 
 header{
-    background-color: #fff;
+    background-color: #FF9AA2;
     width: 100%;
-    height: auto;
+    height: 150px;
+}
+
+main{
+    background-color: #B5EAD7;
+    width: 100%;
+    height: 1000px;
+}
+
+article{
+    background-color: #FFF;
+    width: auto;
+    height: 800px; 
+
 }
 
 footer{
     background-color: #FF9AA2;
     width: 100%;
-    height: 100px;
-}
-
-section{
-    background-color: #FF9AA2;
-    width: 100%;
-    height: 100px;
-}
-
-aside{
-    background-color: #B5EAD7;
-    width: 100%;
-    height: 100px;  
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .logo{
@@ -41,4 +44,37 @@ width: 10%;
 
 h1{
     font-size: 75px;
+}
+
+.title_to{
+    width:100%;
+    height: auto;
+    border-top: #B5EAD7 solid 20px;
+    border-bottom: #B5EAD7 solid 10px;
+}
+
+.contenido{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, auto);
+
+	grid-template-areas: "title_to title_to title_to"
+						 "buscar productos productos"
+                         ;
+}
+
+.contenido .title_to{
+	grid-area: title_to;
+}
+
+.contenido .buscar{
+	grid-area: buscar;
+    margin:10px;
+	border-radius: 4px;
+}
+
+.contenido .productos{
+	grid-area: productos;
+    margin:10px;
+	border-radius: 4px;
 }
