@@ -69,12 +69,50 @@ h1{
 
 .contenido .buscar{
 	grid-area: buscar;
+    padding: 10px;
     margin:10px;
-	border-radius: 4px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .contenido .productos{
 	grid-area: productos;
+    padding: 10px;
     margin:10px;
-	border-radius: 4px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.buscador{
+    display: flex;
+
+   /*eje principal*/
+   flex-direction: row;
+    
+   justify-content: center; /* alinea los hijos en el eje principal */
+
+   /*eje secundario*/
+   align-items: center; /* alinea los hijos en el eje secundario */
+}
+
+.buscar_productos{
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #FF9AA2;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    border-right: 0;
+
+    order: 1;
+}
+
+.boton_buscar{
+    box-sizing: border-box;
+    padding: 6px;
+    border: 1px solid #FF9AA2;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-left: 0;
+
+    order: 2;
 }
