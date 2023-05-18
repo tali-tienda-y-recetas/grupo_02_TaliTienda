@@ -12,8 +12,26 @@
 <body>
 <div  class="contenedor">
     <header>
-        <img class="logo" src="images/logo.png">
-        <nav>menú de navegación</nav>
+        <a href="./index.html"><img  class="logo" src="./images/logo.jpeg" alt="logo"></a>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a class="nav_text" href="./index.html">Home</a>    
+                </li>
+                <li>
+                    <a class="nav_text" href="./pages/tienda_online.html">Tienda</a>    
+                </li>
+                <li>
+                    <a class="nav_text" href="./pages/recetas_saladas.html">Recetas Saladas</a>    
+                </li>
+                <li>
+                    <a class="nav_text" href="./pages/recetas_dulces.html">Recetas Dulces</a>    
+                </li>
+                <li>
+                    <a class="nav_text" href="./pages/contacto.html">Contacto</a>    
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main class="contenido">
@@ -25,27 +43,85 @@
             <input type="text" placeholder="Buscar productos" aria-label="Buscar productos" class="buscar_productos">
             <button class="boton_buscar"><span class="material-symbols-outlined">search</span></button>
         </div>
-        <div>
-            <ul>
-                <li>Cacerolas</li>
-                <li>Sartenes</li>
-                <li>Set de espátulas</li>
-                <li>Plancha</li>
-                <li>Grill</li>
-                <li>Wok</li>
-            </ul>
+        <div class="lista_productos">
+            <form method="get" action="#">
+
+                Selecciona el producto:
+                
+                <br />
+                
+                <input name="cacerolas" type="checkbox" />Cacerolas
+                
+                <br />
+                
+                <input name="sartenes" type="checkbox" />Sartenes
+                
+                <br />
+                
+                <input name="budineras" type="checkbox" />Budineras
+
+                <br />
+                
+                <input name="flip" type="checkbox" />Flip
+
+                <br />
+                
+                <input name="grill" type="checkbox" />Grill
+
+                <br />
+                
+                <input name="wok" type="checkbox" />Wok
+                
+                </form>
+           
         </div>
 
         </article>
 
         <article class="productos">
-            <h2>Productos</h2>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+
+            <div class="card-1">
+                <img src="images/cacerola.png" class="card-img" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Cacerola cuadrada 30 cm</p>
+                  <p class="card-text">Cacerola</p>
                 </div>
               </div>
+
+              <div class="card-2">
+                <img src="images/sarten.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Sartén</p>
+                </div>
+              </div>
+
+              <div class="card-3">
+                <img src="images/budineras.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Budinera</p>
+                </div>
+              </div>
+
+              <div class="card-4">
+                <img src="images/flip.png" class="card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Flip</p>
+                </div>
+              </div>
+
+              <div class="card-5">
+                <img src="images/grill.jpg" class="card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Grill</p>
+                </div>
+              </div>
+
+              <div class="card-6">
+                <img src="images/wok.png" class="card-img" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Wok</p>
+                </div>
+              </div>
+
         </article>
     </main>
 

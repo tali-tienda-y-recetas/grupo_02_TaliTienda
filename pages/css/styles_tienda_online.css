@@ -14,7 +14,31 @@ body{
 header{
     background-color: #FF9AA2;
     width: 100%;
-    height: 150px;
+    height: 200px;
+}
+.logo {
+    width: 10%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 10px;
+    padding-left: 250px;
+}
+ul li {
+    padding-left: 40px;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: pink;
+    padding: 4px 10px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10;
 }
 
 main{
@@ -115,4 +139,45 @@ h1{
     border-left: 0;
 
     order: 2;
+}
+
+.productos{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, auto);
+
+	grid-template-areas: "card-1 card-2 card-3"
+						 "card-4 card-5 card-6"
+                         ;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #B5EAD7;
+    border-radius: 10px;
+}
+
+.card-1{
+    grid-area: card-1;
+}
+.card-2{
+    grid-area: card-2;
+}
+.card-3{
+    grid-area: card-3;
+}
+.card-4{
+    grid-area: card-4;
+}
+.card-5{
+    grid-area: card-5;
+}
+.card-6{
+    grid-area: card-6;
+}
+
+.card-img{
+    width: 100%;
 }
