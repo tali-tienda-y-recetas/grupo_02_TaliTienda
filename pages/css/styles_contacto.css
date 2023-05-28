@@ -1,0 +1,210 @@
+.container {
+    width:100%;
+    margin:10px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+  }
+
+body{
+    
+    width: 100%;
+    height: 600px;
+}
+ /* header */
+header{
+    background-color: #FF9AA2;
+    width: 100%;
+    height: 200px;
+}
+.logo {
+    width: 10%;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 10px;
+    padding-left: 240px;
+}
+ul li {
+    padding-left: 20px;
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: pink;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 10;
+
+}
+main{
+    
+    background-color:  #B5EAD7;
+    width: 100%;
+    height: 1300px;
+}
+body{
+    
+    width: 100%;
+    height: 600px;
+}
+
+.banner {
+    padding-top: 30px;
+    width: 100%;
+    height: auto; 
+    }
+
+/* formulario */
+
+
+
+
+.contact_form{	
+	width: 450px; 
+    height: auto;
+    margin: 40px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #fff; 
+    padding-left: 30px; 
+}
+
+
+input{
+	background-color: #FF9AA2; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #FF9AA2; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #FF9AA2; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #FF9AA2; 
+	border-color: #FF9AA2; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color:#FF9AA2; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #000;  
+}
+
+
+
+
+h3{
+	font-size: 40px; 
+	padding-bottom: 30px;
+	color: #FF9AA2;   
+}
+
+
+p{
+	font-size: 14px; 
+	color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #fff;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #fff;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid pink;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #FF9AA2;
+}
+
+
+
+
+/* footer */
+.logo-maps{
+    width: 90px; 
+}
+
+   
+.logo-whatsapp {
+    width: 40px;
+}
+.logo-email {
+    width: 40px;
+}
+.logo-instagram {
+    width: 40px;
+    
+}
+footer{
+    background-color: #FF9AA2;
+    width: 100%;
+    height: 230px;
+    text-align: center;
+    padding-top: 20px;
+}
+footer a {
+    padding-left: 40px;
+}
