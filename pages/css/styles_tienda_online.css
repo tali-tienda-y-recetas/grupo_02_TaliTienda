@@ -198,3 +198,47 @@ h1{
     padding:5px;
     text-align: center;
 }
+
+.lista_productos,.iframe{
+    padding: 10px;
+}
+
+/* pantalla maximo 980px */
+@media screen and (max-width:980px) {
+    .contenedor {
+        width: 636px;
+        margin: 0px;
+    }
+
+    header{
+        height: 120px;
+    }
+
+    ul {
+        flex-wrap: nowrap;
+        margin: 0px 0px;
+        padding-left: 10px;
+    }
+
+    ul li {
+        padding-left: 10px;
+    }
+
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+        background: pink;
+        padding: 4px 10px;
+        border-radius: 30px;
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+/* pantalla maximo 700px */
+@media screen and (max-width:700px) {
+    .contenedor {
+        width: 635px;
+        margin: 0px;
+    }
+}
