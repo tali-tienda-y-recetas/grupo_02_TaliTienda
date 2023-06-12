@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="../index.html"><img  class="logo" src="/pages/images/logo.jpeg" alt="logo"></a>
+        <a href="../index.html"><img  class="logo" src="./images/logo.jpeg" alt="logo"></a>
         <nav class="nav">
             <ul>
                 <li>
@@ -38,23 +38,23 @@
     <div class="contact_form">
 		<div class="formulario">			
             <h3>Contactate con nosotros</h3>
-					<form action="submeter-formulario.php" method="post">				
+					<form action="" method="">				
 						        <p>
 									<label for="nombre" class="colocar_nombre">Nombre
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+										<input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre">
 								</p>
 							
 								<p>
 									<label for="email" class="colocar_email">Email
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+										<input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email">
 								</p>
 						
 								<p>
-									<label for="telefone" class="colocar_telefono">Teléfono
+									<label for="telefono" class="colocar_telefono">Teléfono
 									</label>
 										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
 								</p>		
@@ -63,18 +63,18 @@
 									<label for="asunto" class="colocar_asunto">Asunto
 										<span class="obligatorio">*</span>
 									</label>
-										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+										<input type="text" name="introducir_asunto" id="assunto" placeholder="Escribe un asunto">
 								</p>		
 							
 								<p>
 									<label for="mensaje" class="colocar_mensaje">Mensaje
 										<span class="obligatorio">*</span>
 									</label>                     
-                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..."></textarea> 
                                	</p>	  								
 							
-								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
+								<button type="submit" onclick= 'return enviarFormulario();' name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                                <div id="error"></div>
 								<p class="aviso">
 									<span class="obligatorio"> * </span>los campos son obligatorios.
 								</p>					
@@ -84,11 +84,13 @@
 	</div>
     </main>
     <footer>
-        <a  href="https://www.google.com.ar/maps/place/Juan+Gregorio+de+las+Heras+128,+T4000IDD+San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n/@-26.8333592,-65.2046974,17z/data=!3m1!4b1!4m6!3m5!1s0x94225d618480bf97:0x670b6033eb077bea!8m2!3d-26.833364!4d-65.2021225!16s%2Fg%2F11kh_ql_tx"><img class="logo-maps" src="/pages/images/mapa.png" alt="logo mapa"> <p class="text-maps" >Encontranos en Las Heras 128, San Miguel de Tucuman, Argentina </p></a>
-        <a  href="https://www.instagram.com/tali.tienda.tuc/"><img class="logo-instagram" src="/pages/images/instagram.png" alt="logo instagram"></a>
-        <a  href="mailto:talitiendayrecetas@gmail.com"><img class="logo-email" src="/pages/images/gmail.png" alt="logo email"></a>
-        <a  href="https://wa.me/+5493816986083"><img class="logo-whatsapp" src="/pages/images/whatsapp.png" alt="logo whats app"></a>
+        <a  href="https://www.google.com.ar/maps/place/Juan+Gregorio+de+las+Heras+128,+T4000IDD+San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n/@-26.8333592,-65.2046974,17z/data=!3m1!4b1!4m6!3m5!1s0x94225d618480bf97:0x670b6033eb077bea!8m2!3d-26.833364!4d-65.2021225!16s%2Fg%2F11kh_ql_tx"><img class="logo-maps" src="./images/mapa.png" alt="logo mapa"> <p class="text-maps" >Encontranos en Las Heras 128, San Miguel de Tucuman, Argentina </p></a>
+        <a  href="https://www.instagram.com/tali.tienda.tuc/"><img class="logo-instagram" src="./images/instagram.png" alt="logo instagram"></a>
+        <a  href="mailto:talitiendayrecetas@gmail.com"><img class="logo-email" src="./images/gmail.png" alt="logo email"></a>
+        <a  href="https://wa.me/+5493816986083"><img class="logo-whatsapp" src="./images/whatsapp.png" alt="logo whats app"></a>
         <h4>Copyright 2023</h4>
-    </footer> 
+    </footer>
+
+    <script src="./js/app.js"></script> 
 </body>
 </html>
