@@ -1,0 +1,8 @@
+{
+    "monto": 100.5,
+    "metodo_pago": "transferencia",
+    "cvu_cliente": "12345678901234567890",
+    "dni_cliente": "12345678",
+    "id_transaccon": "abcde123456",
+    "url_pago": "https://wwwmercadopago.com/pagos/abcde123456"
+}
